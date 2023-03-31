@@ -10,4 +10,6 @@ $uri = $_SERVER['REQUEST_URI'];
 
  
 
-require('views/index.view.php');
+view('index.view.php' , [
+    'heading' => 'Home'
+]);

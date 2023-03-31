@@ -1,7 +1,9 @@
 <?php
 
-$heading = 'Contact';
+
 
 $uri = $_SERVER['REQUEST_URI'];
 
-include('views/contact.view.php');
+view('/contact.view.php' , [
+    'heading' => 'Contact'
+]);
