@@ -1,7 +1,7 @@
 <?php
 //  الان اصلا از کجا میفهمه که باید این صفحه رو باز کنه چرا function رو باز نمیکنه
 
-
+// C:\Users\TRJ\Desktop\php core\afterDubai\public
 const BASE_PATH = __DIR__ . '/../' ;
 
 

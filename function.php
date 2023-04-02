@@ -32,4 +32,5 @@ function view($path , $attributes = [])
     extract($attributes);
     
     require base_path('views/' . $path) ;
+    
 }
