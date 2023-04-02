@@ -12,4 +12,4 @@
             <!-- /End replace -->
             </div>
         </main>
-        <?php include('views/partials/footer.php') ?> 
+        <?php view('partials/footer.php') ?> 
