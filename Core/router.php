@@ -1,8 +1,9 @@
 <?php
+namespace Core ;
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
-$routes = require('route.php');
+$routes = require base_path('route.php');
 
 // if($uri == '/'){
 //     require('controllers/index.php');
@@ -20,7 +21,7 @@ $routes = require('route.php');
 
 function routeToController($uri , $routes) {
     if(array_key_exists($uri , $routes)){
-        require $routes[$uri];
+        require base_path($routes[$uri]);
     } else {
         abort();
     }

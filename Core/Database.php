@@ -1,6 +1,9 @@
 <?php
 
+namespace Core;
 // connect to dataBase and execute a query ; 
+
+use PDO ;
 class Database{
     
     public $connection;
