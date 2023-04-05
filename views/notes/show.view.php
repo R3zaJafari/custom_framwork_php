@@ -12,6 +12,7 @@
                     <a href="/notes">go back ...</a>
                 </div>
               
+                <a href="">Delete</a>
             </div>
         </main>
 
