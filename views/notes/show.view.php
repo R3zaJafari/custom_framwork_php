@@ -4,6 +4,7 @@
 
         <main>
             <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+
                 <li class="text-blue-500 hover:underline">
                     <?= htmlspecialchars($note['body']) ?>
                 </li>
@@ -12,7 +13,14 @@
                     <a href="/notes">go back ...</a>
                 </div>
               
-                <a href="">Delete</a>
+                <form class="mt-5" method="POST">
+
+                    <input type="hidden" name="id" value="<?=  $note['id']  ?>">
+
+                    <button class="text-sm text-red-500">Delete</button>
+
+                </form>
+
             </div>
         </main>
 

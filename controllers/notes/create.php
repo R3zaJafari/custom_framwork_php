@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST'){
    
     
 
-    if(! Validator::string($_POST['body'] , 1 , 10 )   )
+    if(! Validator::string($_POST['body'] , 1 , 30 )   )
     {
         $errors['body'] = 'A body of no more then 100 is cherecter required';
     }
